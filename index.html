@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevilDev — Future of Digital Craft</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+
+    <a href="#hero" class="nav-logo">DevilDev</a>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button class="nav-cta"
+      onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+      Let's Talk
+    </button>
+
+    <!-- Mobile Menu Button -->
+    <button class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#work" class="mobile-link">Work</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero">
+
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+
+    <div class="hero-ticker">
+      BUILD · DESIGN · DEPLOY · BUILD · DESIGN · DEPLOY
+    </div>
+
+    <div class="hero-label">
+      Available for projects — 2026
+    </div>
+
+    <h1 class="hero-title">
+      <span class="outline">We</span><br>
+      <em>Craft</em><br>
+      Digital
+    </h1>
+
+    <p class="hero-sub">
+      Interfaces that feel inevitable.
+      Products built at the intersection of
+      engineering precision and design obsession.
+    </p>
+
+    <div class="hero-actions">
+
+      <button class="btn-primary"
+        onclick="document.getElementById('work').scrollIntoView({behavior:'smooth'})">
+        View Work
+      </button>
+
+      <a href="#contact" class="btn-ghost">
+        Get in Touch
+      </a>
+
+    </div>
+
+    <div class="hero-scroll-hint">
+      Scroll Down
+    </div>
+
+  </section>
+
+  <!-- About -->
+  <section id="about">
+
+    <div class="section-label">About</div>
+
+    <div class="about-grid">
+
+      <div>
+
+        <h2 class="section-title reveal">
+          Who We<br>
+          <em style="color:var(--accent)">Are</em>
+        </h2>
+
+        <div class="about-text reveal">
+
+          <p>
+            We are a <strong>boutique digital studio</strong>
+            obsessed with building products people love.
+          </p>
+
+          <p>
+            Every interaction, animation and line of code
+            is crafted with precision.
+          </p>
+
+          <p>
+            We don't ship templates.
+            We build experiences.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="about-stats reveal">
+
+        <div class="stat-card">
+          <div class="stat-num">48</div>
+          <div class="stat-label">Projects Shipped</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Years Active</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-num">32</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-num">24/7</div>
+          <div class="stat-label">Support</div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+
+    <div class="section-label">Services</div>
+
+    <h2 class="section-title reveal">
+      What We<br>
+      <em style="color:var(--accent)">Do</em>
+    </h2>
+
+    <div class="services-grid">
+
+      <div class="service-card reveal">
+
+        <div class="service-num">01</div>
+
+        <div class="service-icon">💻</div>
+
+        <h3>Web Design</h3>
+
+        <p>
+          Modern and responsive interfaces crafted
+          for premium user experience.
+        </p>
+
+      </div>
+
+      <div class="service-card reveal">
+
+        <div class="service-num">02</div>
+
+        <div class="service-icon">⚡</div>
+
+        <h3>Development</h3>
+
+        <p>
+          Scalable frontend and backend solutions
+          using modern technologies.
+        </p>
+
+      </div>
+
+      <div class="service-card reveal">
+
+        <div class="service-num">03</div>
+
+        <div class="service-icon">🚀</div>
+
+        <h3>Branding</h3>
+
+        <p>
+          Creating digital experiences that help
+          brands stand out online.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Work -->
+  <section id="work">
+
+    <div class="section-label">Projects</div>
+
+    <h2 class="section-title reveal">
+      Featured<br>
+      <em style="color:var(--accent)">Work</em>
+    </h2>
+
+    <div class="work-list">
+
+      <div class="work-item reveal">
+
+        <div class="work-title">
+          Devil Commerce
+        </div>
+
+        <div class="work-meta">
+
+          <div class="work-tag">E-Commerce</div>
+
+          <div class="work-year">2026</div>
+
+          <div class="work-arrow">↗</div>
+
+        </div>
+
+      </div>
+
+      <div class="work-item reveal">
+
+        <div class="work-title">
+          Vision Studio
+        </div>
+
+        <div class="work-meta">
+
+          <div class="work-tag">Portfolio</div>
+
+          <div class="work-year">2026</div>
+
+          <div class="work-arrow">↗</div>
+
+        </div>
+
+      </div>
+
+      <div class="work-item reveal">
+
+        <div class="work-title">
+          NextGen Agency
+        </div>
+
+        <div class="work-meta">
+
+          <div class="work-tag">Agency</div>
+
+          <div class="work-year">2026</div>
+
+          <div class="work-arrow">↗</div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+
+    <div class="section-label">
+      Contact
+    </div>
+
+    <h2 class="reveal">
+      LET'S BUILD<br>
+      <span class="outline">TOGETHER</span>
+    </h2>
+
+    <a href="mailto:devil@devildev.com"
+      class="contact-email">
+
+      devil@devildev.com
+
+    </a>
+
+    <button class="btn-primary">
+      Start a Project
+    </button>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+
+    <div>
+      © 2026 Devil studio
+    </div>
+
+    
+
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
