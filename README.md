@@ -14,6 +14,9 @@ Responsive Landing Page with Interactive Navigation Menu
 - HTML5
 - CSS3
 - JavaScript
+- 
+## Live Demo
+https://prodigy-wd-01-indol-omega.vercel.app/
 
 ## Author
 Piyush Netke
